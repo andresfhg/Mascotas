@@ -34,6 +34,7 @@
         </div>
     </nav>
     
+    <img src="Imagenes/logo.png" width="234" height="75" alt="logo"/>
 
 
 
