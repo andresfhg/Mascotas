@@ -33,7 +33,7 @@
             </div>
         </div>
     </nav>
-    <img src="Imagenes/Disney_30.png" width="200" height="200" alt="Disney_30"/>
+    
 
 
 
