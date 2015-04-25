@@ -8,5 +8,5 @@
  * @author Andres
  */
 public class Prueba {
-    
+    double  i;
 }
