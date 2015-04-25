@@ -34,9 +34,6 @@
         </div>
     </nav>
     
-    
-    
-    
 </body>
 </html>
 
