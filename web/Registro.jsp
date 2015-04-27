@@ -66,9 +66,6 @@
 
                 </fieldset>
 
-                <%-- 
-  Que caspa git HUB .l.l.l.
-                --%>
-        </div>
+          </div>
     </body>
 </html>
