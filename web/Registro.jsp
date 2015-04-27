@@ -33,28 +33,29 @@
                 </div>
             </div>
         </nav>
-
-        <form class="form-horizontal">
-            <fieldset>
-                <legend>Registrarse</legend>
-                <div class="form-group">
-                    <label for="inputEmail" class="col-lg-2 control-label">Email</label>
-                    <div class="col-lg-10">
-                        <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+        <div class="container">
+            <form class="form-horizontal">
+                <fieldset>
+                    <legend>Registrarse</legend>
+                    <div class="form-group">
+                        <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+                        <div class="col-lg-10">
+                            <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+                        </div>
                     </div>
-                </div>
-                <div class="form-group">
-                    <label for="inputPassword" class="col-lg-2 control-label">Contraseña</label>
-                    <div class="col-lg-10">
-                        <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña">
+                    <div class="form-group">
+                        <label for="inputPassword" class="col-lg-2 control-label">Contraseña</label>
+                        <div class="col-lg-10">
+                            <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña">
+                        </div>
                     </div>
-                </div>
-                <div class="form-group">
-                    <label for="inputPassword" class="col-lg-2 control-label">Confirmar Contraseña</label>
-                    <div class="col-lg-10">
-                        <input type="password" class="form-control" id="inputPassword" placeholder="Confirmar Contraseña">
+                    <div class="form-group">
+                        <label for="inputPassword" class="col-lg-2 control-label">Confirmar Contraseña</label>
+                        <div class="col-lg-10">
+                            <input type="password" class="form-control" id="inputPassword" placeholder="Confirmar Contraseña">
+                        </div>
                     </div>
-                </div>
-            </fieldset>
+                </fieldset>
+        </div>
     </body>
 </html>
