@@ -21,7 +21,7 @@
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a href="../" class="navbar-brand">Mascotas</a>      
+                <a href="Inicio.jsp" class="navbar-brand">Mascotas</a>      
             </div>
 
             <div class="navbar-collapse collapse" id="navbar-main">
