@@ -11,7 +11,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Registrate</title>
         <link rel="stylesheet" href="css/bootstrap.css" type="text/css"/> 
-    
+
         <link rel="stylesheet" href="newcss.css" type="text/css">   
         <link rel="Shortcut Icon" type="image/x-icon" href="Imagenes/Disney_30.png">
         <script src="js/cargador.js"></script>
@@ -29,7 +29,7 @@
                         <li>
                             <a href="Inicio.jsp">Inicio</a>
                         </li> 
-                     </ul>
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -37,6 +37,12 @@
             <form class="form-horizontal">
                 <fieldset>
                     <legend>Registrarse</legend>
+                    <div class="form-group">
+                        <label for="inputUsuario" class="col-lg-2 control-label">Usuario</label>
+                        <div class="col-lg-10">
+                            <input type="text" class="form-control" id="inputUsuario" placeholder="Usuario">
+                        </div>
+                    </div>
                     <div class="form-group">
                         <label for="inputEmail" class="col-lg-2 control-label">Email</label>
                         <div class="col-lg-10">
@@ -55,7 +61,14 @@
                             <input type="password" class="form-control" id="inputPassword" placeholder="Confirmar Contraseña">
                         </div>
                     </div>
+
+                    <button id="btn1" type="button" class="btn btn-success">Registarse</button>
+
                 </fieldset>
+
+                <%-- 
+  Que caspa git HUB .l.l.l.
+                --%>
         </div>
     </body>
 </html>
