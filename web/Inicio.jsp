@@ -27,7 +27,7 @@
             <div class="navbar-collapse collapse" id="navbar-main">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="../">Inicio</a>
+                        <a href="Inicio.jsp">Inicio</a>
                     </li> 
                     <li>
                         <a href="Registro.jsp">Registrarse</a>
