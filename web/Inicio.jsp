@@ -30,7 +30,7 @@
                         <a href="../">Inicio</a>
                     </li> 
                     <li>
-                        <a href="../">Registrarse</a>
+                        <a href="Registro.jsp">Registrarse</a>
                     </li>
                 </ul>
             </div>
