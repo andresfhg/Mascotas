@@ -38,10 +38,7 @@
     </nav>
     
     
-    <%-- 
-    oeeee quedo melo ya si era eso lo q le decia 
---%>
-    
+  
 </body>
 </html>
 
