@@ -9,9 +9,52 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Registrate!!</title>
+        <title>Registrate</title>
+        <link rel="stylesheet" href="css/bootstrap.css" type="text/css"/> 
+        <script src="js/cargador.js"></script>
+        <link href="css/cargador.css" rel="stylesheet" />
     </head>
     <body>
-        <h1></h1>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a href="Inicio.jsp" class="navbar-brand">Mascotas</a>      
+                </div>
+
+                <div class="navbar-collapse collapse" id="navbar-main">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="Inicio.jsp">Inicio</a>
+                        </li> 
+                        <li>
+                            <a href="Registro.jsp">Registrarse</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <form class="form-horizontal">
+            <fieldset>
+                <legend>Registrarse</legend>
+                <div class="form-group">
+                    <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+                    <div class="col-lg-10">
+                        <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword" class="col-lg-2 control-label">Contraseña</label>
+                    <div class="col-lg-10">
+                        <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword" class="col-lg-2 control-label">Confirmar Contraseña</label>
+                    <div class="col-lg-10">
+                        <input type="password" class="form-control" id="inputPassword" placeholder="Confirmar Contraseña">
+                    </div>
+                </div>
+            </fieldset>
     </body>
 </html>
