@@ -29,6 +29,9 @@
                     <li>
                         <a href="../">Inicio</a>
                     </li> 
+                    <li>
+                        <a href="../">Registrarse</a>
+                    </li>
                 </ul>
             </div>
         </div>
