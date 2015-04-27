@@ -11,7 +11,6 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Registrate</title>
         <link rel="stylesheet" href="css/bootstrap.css" type="text/css"/> 
-
         <link rel="stylesheet" href="newcss.css" type="text/css">   
         <link rel="Shortcut Icon" type="image/x-icon" href="Imagenes/Disney_30.png">
         <script src="js/cargador.js"></script>
@@ -38,34 +37,38 @@
                 <fieldset>
                     <legend>Registrarse</legend>
                     <div class="form-group">
-                        <label for="inputUsuario" class="col-lg-2 control-label">Usuario</label>
-                        <div class="col-lg-10">
+                        <label for="inputUsuario" class="col-md-2 control-label">Usuario</label>
+                        <div class="col-md-5">
                             <input type="text" class="form-control" id="inputUsuario" placeholder="Usuario">
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="inputEmail" class="col-lg-2 control-label">Email</label>
-                        <div class="col-lg-10">
+                        <label for="inputEmail" class="col-md-2 control-label">Email</label>
+                        <div class="col-md-5">
                             <input type="text" class="form-control" id="inputEmail" placeholder="Email">
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="inputPassword" class="col-lg-2 control-label">Contraseña</label>
-                        <div class="col-lg-10">
+                        <label for="inputPassword" class="col-md-2 control-label">Contraseña</label>
+                        <div class="col-md-5">
                             <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña">
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="inputPassword" class="col-lg-2 control-label">Confirmar Contraseña</label>
-                        <div class="col-lg-10">
+                        <label for="inputPassword" class="col-md-2 control-label">Confirmar Contraseña</label>
+                        <div class="col-md-5">
                             <input type="password" class="form-control" id="inputPassword" placeholder="Confirmar Contraseña">
                         </div>
                     </div>
-
-                    <button id="btn1" type="button" class="btn btn-success">Registarse</button>
-
-                </fieldset>
-
+                    <div class="form-group">
+                        <div class="col-md-5 col-md-offset-2">
+                          <button type="button" class="btn btn-success">Registarse</button>
+                        </div>
+                    </div>
+                        
+                    
+               </fieldset> 
+            </form>
           </div>
     </body>
 </html>
