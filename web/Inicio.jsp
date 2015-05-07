@@ -36,9 +36,37 @@
             </div>
         </div>
     </nav>
-    
-    
-  
+
+    <div class="container">
+        <div class="col-xs-6 col-xs-offset-7">
+            <form class="form-horizontal">
+                <fieldset>
+                    <legend>Iniciar Sesión</legend>
+                    <div class="form-group">
+                        <label for="inputEmail" class="col-md-2 control-label">Email</label>
+                        <div class="col-md-5">
+                            <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPassword" class="col-md-2 control-label">Contraseña</label>
+                        <div class="col-md-5">
+                            <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-5 col-md-offset-2">
+                            <button type="button" class="btn btn-success">Entrar</button>
+                        </div>
+                    </div>
+
+                </fieldset> 
+            </form>
+        </div>
+    </div>
+
+
+
 </body>
 </html>
 
