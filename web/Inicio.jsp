@@ -29,16 +29,13 @@
                     <li>
                         <a href="Inicio.jsp">Inicio</a>
                     </li> 
-                    <li>
-                        <a href="Registro.jsp">Registrarse</a>
-                    </li>
-                </ul>
+                 </ul>
             </div>
         </div>
     </nav>
 
     <div class="container">
-        <div class="col-xs-6 col-xs-offset-7">
+        <div class="col-xs-9 col-xs-offset-6">
             <form class="form-horizontal">
                 <fieldset>
                     <legend>Iniciar Sesión</legend>
@@ -52,6 +49,12 @@
                         <label for="inputPassword" class="col-md-2 control-label">Contraseña</label>
                         <div class="col-md-5">
                             <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña">
+                        </div>
+                    </div>
+                    <div class="from-group">
+                        <label for="inputPassword" class="col-md-2 control-label"></label>
+                        <div class="col-md-4">
+                            <p><strong>No tienes una cuenta?  <a href="Registro.jsp">  Registrarse </a> </strong></p>
                         </div>
                     </div>
                     <div class="form-group">
