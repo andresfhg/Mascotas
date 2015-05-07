@@ -29,7 +29,10 @@
                     <li>
                         <a href="Inicio.jsp">Inicio</a>
                     </li> 
-                 </ul>
+                    <li>
+                            <a href="Formularioad.jsp">Formulario</a>
+                     </li>
+                </ul>
             </div>
         </div>
     </nav>
@@ -45,6 +48,7 @@
                             <input type="text" class="form-control" id="inputEmail" placeholder="Email">
                         </div>
                     </div>
+
                     <div class="form-group">
                         <label for="inputPassword" class="col-md-2 control-label">Contraseña</label>
                         <div class="col-md-5">
@@ -67,7 +71,6 @@
             </form>
         </div>
     </div>
-
 
 
 </body>
