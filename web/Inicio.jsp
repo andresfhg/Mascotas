@@ -38,7 +38,7 @@
     </nav>
 
     <div class="container">
-        <div class="col-xs-9 col-xs-offset-6">
+        <div class="col-xs-8 col-xs-offset-5">
             <form class="form-horizontal">
                 <fieldset>
                     <legend>Iniciar Sesión</legend>
