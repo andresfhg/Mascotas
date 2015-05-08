@@ -44,14 +44,14 @@
                     <legend>Iniciar Sesión</legend>
                     <div class="form-group">
                         <label for="inputEmail" class="col-md-2 control-label">Email</label>
-                        <div class="col-md-5">
+                        <div class="col-md-7">
                             <input type="text" class="form-control" id="inputEmail" placeholder="Email">
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label for="inputPassword" class="col-md-2 control-label">Contraseña</label>
-                        <div class="col-md-5">
+                        <div class="col-md-7">
                             <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña">
                         </div>
                     </div>
