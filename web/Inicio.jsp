@@ -16,7 +16,7 @@
     <img id="imagenlogo" src="Imagenes/logo.png" alt="logo" height="130" width="370">
     <script src="js/cargador.js"></script>
     <link href="css/cargador.css" rel="stylesheet" />
-</head>
+</head> 
 <body>
     <nav class="navbar navbar-default">
         <div class="container-fluid">
