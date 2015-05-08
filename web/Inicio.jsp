@@ -2,7 +2,7 @@
     Document   : Inicio
     Created on : 16/04/2015, 01:06:30 PM
     Author     : Andres
---%> 
+--%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
