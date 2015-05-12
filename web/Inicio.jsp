@@ -71,7 +71,9 @@
             </form>
         </div>
     </div>
-
+    <%-- 
+    onclick = "alert('<%=    %>')"
+--%>
     <input type="submit" value="Conexión" class="btn btn-success" />
 
 </body>
