@@ -17,12 +17,12 @@ public class conectadb {
      /**
      * nombre de la base de datos
     */
-    public String db = "mascotas.mysql";
+    public String db = "mascotas";
     
     /**
      * URL del driver
     */
-    public String url = "jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull"+db;
+    public String host = "jdbc:mysql://localhost:3306/";
     
     /**
      * usuario de la bd
@@ -35,6 +35,7 @@ public class conectadb {
     */
     public String pass = "";
 
+    public String url = "";
    /**
     * 
     * @return la coneccion a la base de datos
