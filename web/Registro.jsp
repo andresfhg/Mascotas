@@ -28,6 +28,9 @@
                         <li>
                             <a href="Inicio.jsp">Inicio</a>
                         </li> 
+                        <li>
+                            <a href="Formularioad.jsp">Formulario</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -39,7 +42,7 @@
                     <div class="form-group">
                         <label for="inputUsuario" class="col-md-2 control-label">Usuario</label>
                         <div class="col-md-5">
-                            <input type="text" class="form-control" id="inputUsuario" placeholder="Usuario">
+                            <input type="text" class="form-control" id="inputUsuario" placeholder="Usuario" required/>
                         </div>
                     </div>
                     <div class="form-group">
@@ -51,7 +54,7 @@
                     <div class="form-group">
                         <label for="inputPassword" class="col-md-2 control-label">Contraseña</label>
                         <div class="col-md-5">
-                            <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña">
+                            <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña" >
                         </div>
                     </div>
                     <div class="form-group">
@@ -65,8 +68,7 @@
                           <button type="button" class="btn btn-success">Registarse</button>
                         </div>
                     </div>
-                        
-                    
+                                        
                </fieldset> 
             </form>
           </div>
