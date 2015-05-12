@@ -72,6 +72,7 @@
         </div>
     </div>
 
+    <input type="submit" value="Conexión" class="btn btn-success" />
 
 </body>
 </html>
