@@ -36,6 +36,7 @@
             </div>
         </nav>
         <div class="container">
+            
             <form class="form-horizontal">
                 <fieldset>
                     <legend>Formulario</legend>
@@ -47,7 +48,7 @@
                     </div>
                     <div class="form-group">
                         <label for="inputEdad" class="col-md-2 control-label">Edad</label>
-                        <div class="col-md-1">
+                        <div class="col-md-2">
                             <input type="text" class="form-control" id="inputEmail" placeholder="Edad">
                         </div>
                         <label for="inputTel" class="col-md-2 control-label">Tel</label>
