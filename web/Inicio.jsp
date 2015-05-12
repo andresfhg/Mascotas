@@ -74,7 +74,8 @@
     <%-- 
     onclick = "alert('<%=    %>')"
 --%>
-    <input type="submit" value="Conexión" class="btn btn-success" />
+     
+ <input type="submit" value="Conexion" class="btn btn-success" name="conectar" />
 
 </body>
 </html>
