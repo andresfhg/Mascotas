@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="css/bootstrap.css" type="text/css"/>        
         <link rel="stylesheet" href="newcss.css" type="text/css">   
         <link rel="Shortcut Icon" type="image/x-icon" href="Imagenes/Disney_30.png">
-    <img id="imagenlogo" src="Imagenes/logo.png" alt="logo" height="130" width="370">
+    <img id="imagenlogo" src="Imagenes/Logo mascotas.png" alt="logo" height="215" width="400">
     <script src="js/cargador.js"></script>
     <link href="css/cargador.css" rel="stylesheet" />
 </head> 
