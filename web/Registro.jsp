@@ -42,13 +42,13 @@
                     <div class="form-group">
                         <label for="inputUsuario" class="col-md-2 control-label">Usuario</label>
                         <div class="col-md-5">
-                            <input type="text" class="form-control" id="inputUsuario" placeholder="Usuario" required/>
+                            <input title="Se necesita un nombre" type="text" class="form-control" id="inputUsuario" placeholder="Usuario" required/>
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="inputEmail" class="col-md-2 control-label">Email</label>
                         <div class="col-md-5">
-                            <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+                            <input type="text" class="form-control" id="inputEmail" placeholder="Email" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" name="email" required/>
                         </div>
                     </div>
                     <div class="form-group">
@@ -65,7 +65,7 @@
                     </div>
                     <div class="form-group">
                         <div class="col-md-5 col-md-offset-2">
-                          <button type="button" class="btn btn-success">Registarse</button>
+                            <input type="submit" value="Registrarse" class="btn btn-success" />
                         </div>
                     </div>
                                         
