@@ -35,7 +35,7 @@ public class conectadb {
     */
     public String pass = "";
 
-    public String url = "";
+    public String url =  host + db + "?user="+ user +"&passaword="+ pass;
    /**
     * 
     * @return la coneccion a la base de datos
@@ -47,7 +47,7 @@ public class conectadb {
 
        try{
 
-           Class.forName("org.sqlite.JDBC");
+           Class.forName("com.mysql.jdbc.Driver");
 
            link = DriverManager.getConnection(this.url, this.user, this.pass);
 
