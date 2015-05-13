@@ -48,7 +48,7 @@
                     <div class="form-group">
                         <label for="inputEmail" class="col-md-2 control-label">Email</label>
                         <div class="col-md-5">
-                            <input type="text" class="form-control" id="inputEmail" placeholder="Email" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" name="email" required/>
+                            <input type="email" class="form-control" id="inputEmail" placeholder="Email" name="email" required/>
                         </div>
                     </div>
                     <div class="form-group">
