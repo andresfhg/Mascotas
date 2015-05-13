@@ -4,6 +4,8 @@
     Author     : Andres
 --%>
 
+<%@page import="java.sql.Connection"%>
+<%@page import="conectadb.conectadb"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -74,8 +76,19 @@
     <%-- 
     onclick = "alert('<%=    %>')"
 --%>
-     
- <input type="submit" value="Conexion" class="btn btn-success" name="conectar" />
+     <% 
+          conectadb sqlite = new conectadb();
+          Connection cn = sqlite.Conectar();
+          
+          String res = "";
+          
+          if (cn != null){
+             res = "coneccion Exitosa!!";
+          }else{
+              res = "coneccion fallida :( ";
+          }
+     %>
+ <input type="submit" value="Conexion" class="btn btn-success" onclick = "alert('<%= res %>')"/>
 
 </body>
 </html>
