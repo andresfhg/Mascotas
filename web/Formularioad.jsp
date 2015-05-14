@@ -19,8 +19,8 @@
     <body>
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
-                <div class="navbar-header">
-                    <a href="Inicio.jsp" class="navbar-brand">Mascotas</a>      
+                <div class="navbar-header">                
+                    <a href="Inicio.jsp" class="navbar-header"><img src="Imagenes/Logo mascotas.png" alt="logo" height="55" width="110"> </a>      
                 </div>
 
                 <div class="navbar-collapse collapse" id="navbar-main">
@@ -86,7 +86,7 @@
                     <div class="form-group">
                         <div class="col-md-5 col-md-offset-2">
                             <input type="submit" value="Enviar" class="btn btn-success" />
-                            
+
                         </div>
                     </div>
 
