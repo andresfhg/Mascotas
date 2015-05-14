@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="css/bootstrap.css" type="text/css"/>        
         <link rel="stylesheet" href="newcss.css" type="text/css">   
         <link rel="Shortcut Icon" type="image/x-icon" href="Imagenes/Disney_30.png">
-    <img id="imagenlogo" src="Imagenes/Logo mascotas.png" alt="logo" height="215" width="400">
+    <img id="imagenlogo" src="Imagenes/Logo mascotas.png" alt="logo" height="230" width="415">
     <script src="js/cargador.js"></script>
     <link href="css/cargador.css" rel="stylesheet" />
 </head> 
@@ -32,8 +32,8 @@
                         <a href="Inicio.jsp">Inicio</a>
                     </li> 
                     <li>
-                            <a href="Formularioad.jsp">Formulario</a>
-                     </li>
+                        <a href="Formularioad.jsp">Formulario</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -47,14 +47,14 @@
                     <div class="form-group">
                         <label for="inputEmail" class="col-md-2 control-label">Email</label>
                         <div class="col-md-7">
-                            <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+                            <input title="Ingrese correo" type="email" class="form-control" id="inputEmail" placeholder="Email" required/>
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label for="inputPassword" class="col-md-2 control-label">Contraseña</label>
                         <div class="col-md-7">
-                            <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña">
+                            <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña" required/>
                         </div>
                     </div>
                     <div class="from-group">
@@ -65,7 +65,7 @@
                     </div>
                     <div class="form-group">
                         <div class="col-md-5 col-md-offset-2">
-                            <button type="button" class="btn btn-success">Entrar</button>
+                            <input type="submit" value="Entrar" class="btn btn-success"/>
                         </div>
                     </div>
 
@@ -75,20 +75,20 @@
     </div>
     <%-- 
     onclick = "alert('<%=    %>')"
---%>
-     <% 
-          conectadb sqlite = new conectadb();
-          Connection cn = sqlite.Conectar();
-          
-          String res = "";
-          
-          if (cn != null){
-             res = "Conexión Exitosa!";
-          }else{
-              res = "Conexión Fallida :( ";
-          }
-     %>
- <input type="submit" value="Conexion" class="btn btn-success" onclick = "alert('<%= res %>')"/>
+    --%>
+    <%
+        conectadb sqlite = new conectadb();
+        Connection cn = sqlite.Conectar();
+
+        String res = "";
+
+        if (cn != null) {
+            res = "Conexión Exitosa!";
+        } else {
+            res = "Conexión Fallida :( ";
+        }
+    %>
+    <input type="submit" value="Conexion" class="btn btn-success" onclick = "alert('<%= res%>')"/>
 
 </body>
 </html>

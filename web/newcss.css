@@ -13,4 +13,10 @@ and open the template in the editor.
     left: 5px;
 }
 
+body {
+    background-image: url(""); 
+    background-attachment:fixed;
+    background-position:center;
+}
+
 

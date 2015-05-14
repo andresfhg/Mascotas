@@ -52,35 +52,63 @@
                             <div class="form-group">
                                 <label for="inputEdad" class="col-md-2 control-label">Edad</label>
                                 <div class="col-md-4">
-                                    <input type="number" class="form-control" id="inputEmail" placeholder="Edad" maxlength="2" required/>
+                                    <input type="number" class="form-control" id="inputEdadl" placeholder="Edad" maxlength="2" required/>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="inputTel" class="col-md-2 control-label">Tel</label>
                                 <div class="col-md-4">
-                                    <input type="number" class="form-control" id="inputEmail" placeholder="Telefono" maxlength="7" required/>
+                                    <input type="number" class="form-control" id="inputTel" placeholder="Telefono" maxlength="7" required/>
                                 </div>
                             </div>
 
                             <div class="form-group">
                                 <label for="inputCelular" class="col-md-2 control-label">Celular</label>
                                 <div class="col-md-4">
-                                    <input type="number" class="form-control" id="inputEmail" placeholder="Celular" maxlength="10" required/>
+                                    <input type="number" class="form-control" id="inputCel" placeholder="Celular" maxlength="10" required/>
                                 </div>
                             </div>
+                            <div class="form-group">
+                                <label for="inputDireccion" class="col-md-2 control-label">Dirección</label>
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" id="inputDireccion" placeholder="Dirección" required/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputBarrio" class="col-md-2 control-label">Barrio</label>
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" id="inputBarrio" placeholder="Barrio" required/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputEmpresa" class="col-md-2 control-label">Empresa</label>
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" id="inputEmpresa" placeholder="Empresa" required/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputPT" class="col-md-2 control-label">Puesto de trabajo</label>
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" id="inputPT" placeholder="Puesto de trabajo" required/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputvivienda" class="col-md-2 control-label">Tipo De Vivienda</label>
+                                <div class="col-md-4">
+                                    <select name="vivienda" >
+                                        <option value="1">Casa</option> 
+                                        <option value="2">Apartamento</option> 
+                                        <option value="1">Finca</option> 
+                                        <option value="1">Otro</option> 
+                                    </select>
+                                </div>
+                            </div>
+                            
 
-                            <div class="form-group">
-                                <label for="inputPassword" class="col-md-2 control-label">Contraseña</label>
-                                <div class="col-md-4">
-                                    <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña" minlength="8" required/>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label for="inputPassword" class="col-md-2 control-label">Confirmar Contraseña</label>
-                                <div class="col-md-4">
-                                    <input type="password" class="form-control" id="inputPassword" placeholder="Confirmar Contraseña" minlength="8" required/>
-                                </div>
-                            </div>
+
+                        </div>
+                        <div class="col-xs-10">
+
                         </div>
                     </div>
                     <div class="form-group">

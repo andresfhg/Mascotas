@@ -54,13 +54,13 @@
                     <div class="form-group">
                         <label for="inputPassword" class="col-md-2 control-label">Contraseña</label>
                         <div class="col-md-5">
-                            <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña" >
+                            <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña" minlength="8" required/>
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="inputPassword" class="col-md-2 control-label">Confirmar Contraseña</label>
                         <div class="col-md-5">
-                            <input type="password" class="form-control" id="inputPassword" placeholder="Confirmar Contraseña">
+                            <input type="password" class="form-control" id="inputPassword" placeholder="Confirmar Contraseña" minlength="8" required/>
                         </div>
                     </div>
                     <div class="form-group">

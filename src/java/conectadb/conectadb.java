@@ -13,53 +13,52 @@ import java.sql.*;
 import javax.swing.JOptionPane;
 
 public class conectadb {
-    
-     /**
+
+    /**
      * nombre de la base de datos
-    */
+     */
     public String db = "mascotas";
-    
+
     /**
      * URL del driver
-    */
+     */
     public String host = "jdbc:mysql://localhost:3306/";
-    
+
     /**
      * usuario de la bd
-    */
+     */
     public String user = "root";
-    
-    
+
     /**
      * contraseña del usuario de la bd
-    */
+     */
     public String pass = "";
 
-    public String url =  host + db + "?user="+ user +"&passaword="+ pass;
-   /**
-    * 
-    * @return la coneccion a la base de datos
-    */
-    
-   public Connection Conectar(){
+    public String url = host + db + "?user=" + user + "&passaword=" + pass;
 
-       Connection link = null;
+    /**
+     *
+     * @return la coneccion a la base de datos
+     */
 
-       try{
+    public Connection Conectar() {
 
-           Class.forName("com.mysql.jdbc.Driver");
+        Connection link = null;
 
-           link = DriverManager.getConnection(this.url, this.user, this.pass);
+        try {
 
-       }catch(Exception ex){
+            Class.forName("com.mysql.jdbc.Driver");
 
-           JOptionPane.showMessageDialog(null, ex);
+            link = DriverManager.getConnection(this.url, this.user, this.pass);
 
-       }
+        } catch (Exception ex) {
 
+            JOptionPane.showMessageDialog(null, ex);
 
-       return link;
+        }
 
-   }
-    
+        return link;
+
+    }
+
 }
