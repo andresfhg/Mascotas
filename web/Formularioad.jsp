@@ -102,11 +102,10 @@
                                         <option value="1">Otro</option> 
                                     </select>
                                 </div>
-                            </div>
-                            
-
-
+                            </div>                      
                         </div>
+                        
+                        
                         <div class="col-xs-10">
 
                         </div>
