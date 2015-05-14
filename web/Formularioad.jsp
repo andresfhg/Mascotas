@@ -41,51 +41,52 @@
                 <fieldset>
                     <div class="row">        
                         <div class="col-xs-10">
-                            <legend>Formulario</legend>
+                            <legend>Formulario Adopción</legend>
                             <div class="form-group">
                                 <label for="inputUsuario" class="col-md-2 control-label">Nombre Completo</label>
-                                <div class="col-md-5">
-                                    <input type="text" class="form-control" id="inputUsuario" placeholder="Nombre Completo">
+                                <div class="col-md-4">
+                                    <input title="Se necesita un nombre" type="text" class="form-control" id="inputUsuario" placeholder="Nombre Completo" maxlength="30" required/>
                                 </div>
                             </div>
 
                             <div class="form-group">
                                 <label for="inputEdad" class="col-md-2 control-label">Edad</label>
-                                <div class="col-md-2">
-                                    <input type="text" class="form-control" id="inputEmail" placeholder="Edad">
+                                <div class="col-md-4">
+                                    <input type="number" class="form-control" id="inputEmail" placeholder="Edad" maxlength="2" required/>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="inputTel" class="col-md-2 control-label">Tel</label>
-                                <div class="col-md-2">
-                                    <input type="text" class="form-control" id="inputEmail" placeholder="Telefono">
+                                <div class="col-md-4">
+                                    <input type="number" class="form-control" id="inputEmail" placeholder="Telefono" maxlength="7" required/>
                                 </div>
                             </div>
 
                             <div class="form-group">
                                 <label for="inputCelular" class="col-md-2 control-label">Celular</label>
-                                <div class="col-md-2">
-                                    <input type="text" class="form-control" id="inputEmail" placeholder="Celular">
+                                <div class="col-md-4">
+                                    <input type="number" class="form-control" id="inputEmail" placeholder="Celular" maxlength="10" required/>
                                 </div>
                             </div>
 
                             <div class="form-group">
                                 <label for="inputPassword" class="col-md-2 control-label">Contraseña</label>
-                                <div class="col-md-5">
-                                    <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña">
+                                <div class="col-md-4">
+                                    <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña" minlength="8" required/>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="inputPassword" class="col-md-2 control-label">Confirmar Contraseña</label>
-                                <div class="col-md-5">
-                                    <input type="password" class="form-control" id="inputPassword" placeholder="Confirmar Contraseña">
+                                <div class="col-md-4">
+                                    <input type="password" class="form-control" id="inputPassword" placeholder="Confirmar Contraseña" minlength="8" required/>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="col-md-5 col-md-offset-2">
-                            <button type="button" class="btn btn-success">Enviar</button>
+                            <input type="submit" value="Enviar" class="btn btn-success" />
+                            
                         </div>
                     </div>
 

@@ -83,9 +83,9 @@
           String res = "";
           
           if (cn != null){
-             res = "coneccion Exitosa!!";
+             res = "Conexión Exitosa!";
           }else{
-              res = "coneccion fallida :( ";
+              res = "Conexión Fallida :( ";
           }
      %>
  <input type="submit" value="Conexion" class="btn btn-success" onclick = "alert('<%= res %>')"/>
