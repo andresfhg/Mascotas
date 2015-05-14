@@ -36,50 +36,61 @@
             </div>
         </nav>
         <div class="container">
-            
+
             <form class="form-horizontal">
                 <fieldset>
-                    <legend>Formulario</legend>
-                    <div class="form-group">
-                        <label for="inputUsuario" class="col-md-2 control-label">Nombre Completo</label>
-                        <div class="col-md-5">
-                            <input type="text" class="form-control" id="inputUsuario" placeholder="Nombre Completo">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputEdad" class="col-md-2 control-label">Edad</label>
-                        <div class="col-md-2">
-                            <input type="text" class="form-control" id="inputEmail" placeholder="Edad">
-                        </div>
-                        <label for="inputTel" class="col-md-2 control-label">Tel</label>
-                        <div class="col-md-2">
-                            <input type="text" class="form-control" id="inputEmail" placeholder="Telefono">
-                        </div>
-                        <label for="inputCelular" class="col-md-2 control-label">Celular</label>
-                        <div class="col-md-2">
-                            <input type="text" class="form-control" id="inputEmail" placeholder="Celular">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputPassword" class="col-md-2 control-label">Contraseña</label>
-                        <div class="col-md-5">
-                            <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputPassword" class="col-md-2 control-label">Confirmar Contraseña</label>
-                        <div class="col-md-5">
-                            <input type="password" class="form-control" id="inputPassword" placeholder="Confirmar Contraseña">
+                    <div class="row">        
+                        <div class="col-xs-10">
+                            <legend>Formulario</legend>
+                            <div class="form-group">
+                                <label for="inputUsuario" class="col-md-2 control-label">Nombre Completo</label>
+                                <div class="col-md-5">
+                                    <input type="text" class="form-control" id="inputUsuario" placeholder="Nombre Completo">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="inputEdad" class="col-md-2 control-label">Edad</label>
+                                <div class="col-md-2">
+                                    <input type="text" class="form-control" id="inputEmail" placeholder="Edad">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputTel" class="col-md-2 control-label">Tel</label>
+                                <div class="col-md-2">
+                                    <input type="text" class="form-control" id="inputEmail" placeholder="Telefono">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="inputCelular" class="col-md-2 control-label">Celular</label>
+                                <div class="col-md-2">
+                                    <input type="text" class="form-control" id="inputEmail" placeholder="Celular">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="inputPassword" class="col-md-2 control-label">Contraseña</label>
+                                <div class="col-md-5">
+                                    <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputPassword" class="col-md-2 control-label">Confirmar Contraseña</label>
+                                <div class="col-md-5">
+                                    <input type="password" class="form-control" id="inputPassword" placeholder="Confirmar Contraseña">
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="col-md-5 col-md-offset-2">
-                          <button type="button" class="btn btn-success">Enviar</button>
+                            <button type="button" class="btn btn-success">Enviar</button>
                         </div>
                     </div>
-                                        
-               </fieldset> 
+
+                </fieldset> 
             </form>
-          </div>
+        </div>
     </body>
 </html>
