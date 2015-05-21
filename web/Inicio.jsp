@@ -5,7 +5,7 @@
 --%>
 
 <%@page import="java.sql.Connection"%>
-<%@page import="conectadb.conectadb"%>
+<%@page import="Controller.conectadb"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
