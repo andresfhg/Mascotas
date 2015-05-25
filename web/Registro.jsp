@@ -42,7 +42,7 @@
                     <div class="form-group">
                         <label for="inputUsuario" class="col-md-2 control-label">Usuario</label>
                         <div class="col-md-5">
-                            <input title="Se necesita un nombre" type="text" class="form-control" id="inputUsuario" placeholder="Usuario" required/>
+                            <input title="Se necesita un nombre" type="text" class="form-control" id="inputUsuario" placeholder="Usuario" minlength="10" required/>
                         </div>
                     </div>
                     <div class="form-group">
