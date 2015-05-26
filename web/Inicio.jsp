@@ -47,7 +47,7 @@
 
     <div class="container">
         <div class="col-xs-8 col-xs-offset-5">
-            <form class="form-horizontal" action="<%=request.getContextPath()%>/Servletautenticacion" method="post">
+            <form class="form-horizontal" action="<%=request.getContextPath()%>/Servletautenticacion" method="Post">
                 <fieldset>
                     <legend>Iniciar Sesión</legend>
                     <div class="form-group">
