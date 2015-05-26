@@ -28,15 +28,7 @@
                         <li>
                             <a href="Inicio.jsp">Inicio</a>
                         </li> 
-                        <li>
-                            <a href="Formularioad.jsp">Formulario</a>
-                        </li>
-                        <li>
-                            <a href="Iniciologueo.jsp">Inicio Logueo</a>
-                        </li>
-                        <li>
-                            <a href="ErrorInicio.jsp">Error</a>
-                        </li>
+                       
                     </ul>
                 </div>
             </div>
