@@ -45,7 +45,7 @@
         <div class="container-fluid">
             <div class="col-xs-8 col-xs-offset-4">
                 <div class="jumbotron">
-                    <h1>Bienvenido <%= mail %></h1>
+                    <h1>Bienvenido <%=mail%> </h1>
                     <p>Esta página fue creada para saber más sobre las mascotas, podrán adoptar mascotas, donar beneficios para que estas masoctas se encuntren bien  y se podra interactuar con la persona que esta dando en adopcion la mascotas.</p>
                 </div>
             </div>
