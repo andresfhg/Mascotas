@@ -98,12 +98,12 @@ public class Servletautenticacion extends HttpServlet {
             if(buscar){
                 //Para el usuario existente:
                 //Reemplazamos atributos que luego obtendremos desde las páginas .jsp
-                request.setAttribute("Bienvenido",mail);
+                request.setAttribute("Bienvenidos",mail);
                 //Mandamos estos atributos a la página bienvenida.jsp
-                request.getRequestDispatcher("/bienvenida.jsp").forward(request, response);
+                request.getRequestDispatcher("/Iniciologueo.jsp").forward(request, response);
             }else{
                 //De lo contrario vamos a la página errorLogin.jsp
-                request.getRequestDispatcher("/errorLogin.jsp").forward(request, response);
+                request.getRequestDispatcher("/ErrorInicio.jsp").forward(request, response);
             }
             out.close();
         } catch (SQLException ex) {
