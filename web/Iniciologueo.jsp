@@ -29,13 +29,13 @@
                             <a href="Inicio.jsp">Inicio</a>
                         </li> 
                         <li>
-                            <a href="Formularioad.jsp">Formulario Adopcion</a>
+                            <a href="Formularioad.jsp">Formulario</a>
                         </li>
                         <li>
-                            <a href="Iniciologueo.jsp.jsp">Inicio Logueo</a>
+                            <a href="Iniciologueo.jsp">Inicio Logueo</a>
                         </li>
                         <li>
-                            <a href="ErrorInicio.jsp.jsp">Error</a>
+                            <a href="ErrorInicio.jsp">Error</a>
                         </li>
                     </ul>
                 </div>
