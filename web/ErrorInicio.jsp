@@ -1,6 +1,6 @@
 <%-- 
-    Document   : Iniciologueo
-    Created on : 26/05/2015, 10:00:28 AM
+    Document   : ErrorInicio
+    Created on : 26/05/2015, 10:33:33 AM
     Author     : Andres
 --%>
 
@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Bienvenido</title>
+        <title>No se ha podido iniciar sesión</title>
         <link rel="stylesheet" href="css/bootstrap.css" type="text/css"/> 
         <link rel="stylesheet" href="newcss.css" type="text/css">   
         <link rel="Shortcut Icon" type="image/x-icon" href="Imagenes/Disney_30.png">
@@ -29,7 +29,7 @@
                             <a href="Inicio.jsp">Inicio</a>
                         </li> 
                         <li>
-                            <a href="Formularioad.jsp">Formulario Adopcion</a>
+                            <a href="Formularioad.jsp">Formulario</a>
                         </li>
                         <li>
                             <a href="Iniciologueo.jsp.jsp">Inicio Logueo</a>
@@ -42,13 +42,11 @@
             </div>
         </nav>
         <div class="container-fluid">
-            <div class="col-xs-8 col-xs-offset-4">
                 <div class="jumbotron">
-                    <h1>Bienvenidos</h1>
-                    <p>Esta página fue creada para saber más sobre las mascotas, podrán adoptar mascotas, donar beneficios para que estas masoctas se encuntren bien  y se podra interactuar con la persona que esta dando en adopcion la mascotas.</p>
+                    <h1>Error</h1>
+                    <p>No se ha podido iniciar sesión por que el usuario no existe. Regrese a la pagina de <a href="Inicio.jsp">  Inicio </a>.</p>
                 </div>
             </div>
         </div>
     </body>
 </html>
-
