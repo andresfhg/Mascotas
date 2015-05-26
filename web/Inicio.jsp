@@ -41,20 +41,20 @@
 
     <div class="container">
         <div class="col-xs-8 col-xs-offset-5">
-            <form class="form-horizontal">
+            <form class="form-horizontal" action="<%=request.getContextPath()%>/Servletautenticacion" method="post">
                 <fieldset>
                     <legend>Iniciar Sesión</legend>
                     <div class="form-group">
                         <label for="inputEmail" class="col-md-2 control-label">Email</label>
                         <div class="col-md-7">
-                            <input title="Ingrese correo" type="email" class="form-control" id="inputEmail" placeholder="Email" required/>
+                            <input title="Ingrese correo" name="email" type="email" class="form-control" id="inputEmail" placeholder="Email" required/>
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label for="inputPassword" class="col-md-2 control-label">Contraseña</label>
                         <div class="col-md-7">
-                            <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña" required/>
+                            <input type="password" name="contraseña" class="form-control" id="inputPassword" placeholder="Contraseña" required/>
                         </div>
                     </div>
                     <div class="from-group">

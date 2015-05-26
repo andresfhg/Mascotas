@@ -7,14 +7,16 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
+import Controller.conectadb;
+import java.sql.Connection;
+import java.sql.*;
 /**
  *
  * @author Santiago
  */
 @WebServlet(name = "Servletautenticacion", urlPatterns = {"/Servletautenticacion"})
 public class Servletautenticacion extends HttpServlet {
-
+     Connection link = null;
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
      * methods.
@@ -67,7 +69,46 @@ public class Servletautenticacion extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        processRequest(request, response);
+        PrintWriter out = response.getWriter();
+        try {
+            boolean buscar = false;
+            //Guardamos los datos enviados desde index
+            String email = request.getParameter("email");
+            String contraseña = request.getParameter("contraseña");
+            //Establecemos la conexion
+            conectadb sqlite = new conectadb();
+            Connection cn = sqlite.Conectar();
+            String consulta = "select * from mascotas.usuarios where email=? && contraseña=?";
+            ResultSet rs = null;
+            PreparedStatement pst = null;
+            pst = cn.prepareStatement(consulta);
+            pst.setString(1, email);
+            pst.setString(2, contraseña);
+            rs = pst.executeQuery();
+ 
+            String mail="";
+            while(rs.next()){
+                //En caso de existir una coincidencia
+                buscar = true;
+                //Y reemplazamos los atributos de dicho Usuario
+                mail = rs.getString("email");
+                
+            }
+ 
+            if(buscar){
+                //Para el usuario existente:
+                //Reemplazamos atributos que luego obtendremos desde las páginas .jsp
+                request.setAttribute("Bienvenido",mail);
+                //Mandamos estos atributos a la página bienvenida.jsp
+                request.getRequestDispatcher("/bienvenida.jsp").forward(request, response);
+            }else{
+                //De lo contrario vamos a la página errorLogin.jsp
+                request.getRequestDispatcher("/errorLogin.jsp").forward(request, response);
+            }
+            out.close();
+        } catch (SQLException ex) {
+        out.println(ex.toString());
+        }
     }
 
     /**
