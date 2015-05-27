@@ -28,9 +28,7 @@
                         <li>
                             <a href="Inicio.jsp">Inicio</a>
                         </li>
-                        <li>
-                            <a href="Formularioad.jsp">Formulario</a>
-                        </li>
+                        
                         
                     </ul>
                 </div>
