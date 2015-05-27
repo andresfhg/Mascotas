@@ -8,10 +8,6 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <%
-           //Capturamos los datos enviados desde el servlet
-           String mail = (request.getAttribute("mail")).toString();
-       %>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Bienvenido</title>
         <link rel="stylesheet" href="css/bootstrap.css" type="text/css"/> 
@@ -35,9 +31,7 @@
                         <li>
                             <a href="Formularioad.jsp">Formulario</a>
                         </li>
-                        <li>
-                            <a href="Iniciologueo.jsp">Inicio Logueo</a>
-                        </li>
+             
                     </ul>
                 </div>
             </div>
@@ -45,7 +39,7 @@
         <div class="container-fluid">
             <div class="col-xs-8 col-xs-offset-4">
                 <div class="jumbotron">
-                    <h1>Bienvenido <%=mail%> </h1>
+                    <h1>Bienvenido </h1>
                     <p>Esta página fue creada para saber más sobre las mascotas, podrán adoptar mascotas, donar beneficios para que estas masoctas se encuntren bien  y se podra interactuar con la persona que esta dando en adopcion la mascotas.</p>
                 </div>
             </div>

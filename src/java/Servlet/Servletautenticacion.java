@@ -16,7 +16,7 @@ import java.sql.*;
  */
 @WebServlet(name = "Servletautenticacion", urlPatterns = {"/Servletautenticacion"})
 public class Servletautenticacion extends HttpServlet {
-     Connection link = null;
+     
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
      * methods.
@@ -72,42 +72,35 @@ public class Servletautenticacion extends HttpServlet {
         PrintWriter out = response.getWriter();
         try {
             boolean buscar = false;
-            //Guardamos los datos enviados desde index
+
             String email = request.getParameter("email");
-            String contraseña = request.getParameter("contraseña");
-            //Establecemos la conexion
+            String contraseña = request.getParameter("password");
+
             conectadb sqlite = new conectadb();
             Connection cn = sqlite.Conectar();
-            String consulta = "select * from mascotas.usuarios where email=? && contraseña=?";
+            String consulta = "Select * from usuarios where email=? && contraseña=?";
             ResultSet rs = null;
             PreparedStatement pst = null;
             pst = cn.prepareStatement(consulta);
             pst.setString(1, email);
             pst.setString(2, contraseña);
             rs = pst.executeQuery();
- 
-            String mail="";
-            while(rs.next()){
-                //En caso de existir una coincidencia
+
+            while (rs.next()) {
+
                 buscar = true;
-                //Y reemplazamos los atributos de dicho Usuario
-                mail = rs.getString("email");
-                
             }
- 
-            if(buscar){
-                //Para el usuario existente:
-                //Reemplazamos atributos que luego obtendremos desde las páginas .jsp
-                request.setAttribute("Bienvenidos",mail);
+
+            if (buscar) {
                 //Mandamos estos atributos a la página bienvenida.jsp
                 request.getRequestDispatcher("/Iniciologueo.jsp").forward(request, response);
-            }else{
+            } else {
                 //De lo contrario vamos a la página errorLogin.jsp
                 request.getRequestDispatcher("/ErrorInicio.jsp").forward(request, response);
             }
             out.close();
         } catch (SQLException ex) {
-        out.println(ex.toString());
+            out.println(ex.toString());
         }
     }
 

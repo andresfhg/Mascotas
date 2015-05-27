@@ -34,12 +34,7 @@
                     <li>
                         <a href="Formularioad.jsp">Formulario</a>
                     </li>
-                    <li>
-                            <a href="Iniciologueo.jsp">Inicio Logueo</a>
-                        </li>
-                        <li>
-                            <a href="ErrorInicio.jsp">Error</a>
-                        </li>
+                    
                 </ul>
             </div>
         </div>
@@ -47,7 +42,7 @@
 
     <div class="container">
         <div class="col-xs-8 col-xs-offset-5">
-            <form class="form-horizontal" action="<%=request.getContextPath()%>/Servletautenticacion" method="Post">
+            <form class="form-horizontal" action="Servletautenticacion" method="post">
                 <fieldset>
                     <legend>Iniciar Sesión</legend>
                     <div class="form-group">
@@ -60,7 +55,7 @@
                     <div class="form-group">
                         <label for="inputPassword" class="col-md-2 control-label">Contraseña</label>
                         <div class="col-md-7">
-                            <input type="password" name="contraseña" class="form-control" id="inputPassword" placeholder="Contraseña" required/>
+                            <input type="password" name="password" class="form-control" id="inputPassword" placeholder="Contraseña" required/>
                         </div>
                     </div>
                     <div class="from-group">
