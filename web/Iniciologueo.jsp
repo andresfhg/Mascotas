@@ -29,7 +29,7 @@
                             <a href="Inicio.jsp">Inicio</a>
                         </li> 
                         <li>
-                            <a href="Formularioad.jsp">Formulario</a>
+                            <a href="Formularioad.jsp">Formulario Adopcion</a>
                         </li>
              
                     </ul>
