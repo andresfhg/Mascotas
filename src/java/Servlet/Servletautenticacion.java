@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import Controller.conectadb;
 import java.sql.Connection;
 import java.sql.*;
+import javax.servlet.http.HttpSession;
 /**
  *
  * @author Santiago
@@ -95,7 +96,10 @@ public class Servletautenticacion extends HttpServlet {
             }
 
             if (buscar) {
-                request.setAttribute("email", ema);
+                HttpSession session = request.getSession(true);
+                session.setAttribute("email", email);  
+                
+                
                 //Mandamos estos atributos a la página bienvenida.jsp
                 request.getRequestDispatcher("/Iniciologueo.jsp").forward(request, response);
             } else {
