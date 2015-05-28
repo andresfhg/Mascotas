@@ -14,10 +14,14 @@
         <link rel="stylesheet" href="newcss.css" type="text/css">   
         <link rel="Shortcut Icon" type="image/x-icon" href="Imagenes/Disney_30.png">
         <script src="js/cargador.js"></script>
-        <link href="css/cargador.css" rel="stylesheet" />
-        
+        <link href="css/cargador.css" rel="stylesheet" />   
+        <%
+            //capturamos los datos enviados desde el servlet
+            String ema = (request.getAttribute("email")).toString();
+        %>
     </head>
     <body>
+
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
                 <div class="navbar-header">                
@@ -32,6 +36,7 @@
                         <li>
                             <a href="Formularioad.jsp">Formulario Adopcion</a>
                         </li>
+                        <li> <a style="left: 800px;">  <%= ema%>  </a></li>
 
                     </ul>
                 </div>
@@ -40,10 +45,10 @@
         <div class="container-fluid">
             <div class="jumbotron">
                 <h1>Bienvenido </h1>
+
                 <p>Esta página fue creada para saber más sobre las mascotas, podrán adoptar mascotas, donar beneficios para que estas masoctas se encuntren bien  y se podra interactuar con la persona que esta dando en adopcion la mascotas.</p>
             </div>
         </div>
-        
     </body>
 </html>
 

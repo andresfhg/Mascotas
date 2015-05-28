@@ -85,13 +85,17 @@ public class Servletautenticacion extends HttpServlet {
             pst.setString(1, email);
             pst.setString(2, contraseña);
             rs = pst.executeQuery();
-
+            
+            String ema="";
             while (rs.next()) {
 
                 buscar = true;
+                
+                ema= rs.getString("email");
             }
 
             if (buscar) {
+                request.setAttribute("email", ema);
                 //Mandamos estos atributos a la página bienvenida.jsp
                 request.getRequestDispatcher("/Iniciologueo.jsp").forward(request, response);
             } else {
