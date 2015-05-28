@@ -15,6 +15,7 @@
         <link rel="Shortcut Icon" type="image/x-icon" href="Imagenes/Disney_30.png">
         <script src="js/cargador.js"></script>
         <link href="css/cargador.css" rel="stylesheet" />
+        
     </head>
     <body>
         <nav class="navbar navbar-inverse">
@@ -31,19 +32,18 @@
                         <li>
                             <a href="Formularioad.jsp">Formulario Adopcion</a>
                         </li>
-             
+
                     </ul>
                 </div>
             </div>
         </nav>
         <div class="container-fluid">
-            <div class="col-xs-8 col-xs-offset-4">
-                <div class="jumbotron">
-                    <h1>Bienvenido </h1>
-                    <p>Esta página fue creada para saber más sobre las mascotas, podrán adoptar mascotas, donar beneficios para que estas masoctas se encuntren bien  y se podra interactuar con la persona que esta dando en adopcion la mascotas.</p>
-                </div>
+            <div class="jumbotron">
+                <h1>Bienvenido </h1>
+                <p>Esta página fue creada para saber más sobre las mascotas, podrán adoptar mascotas, donar beneficios para que estas masoctas se encuntren bien  y se podra interactuar con la persona que esta dando en adopcion la mascotas.</p>
             </div>
         </div>
+        
     </body>
 </html>
 
