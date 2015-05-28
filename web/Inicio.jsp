@@ -31,7 +31,7 @@
                     <li>
                         <a href="Inicio.jsp">Inicio</a>
                     </li> 
-                                       
+
                 </ul>
             </div>
         </div>
@@ -71,7 +71,7 @@
             </form>
         </div>
     </div>
-    
+
     <%-- 
     onclick = "alert('<%=    %>')"
     --%>
@@ -88,7 +88,7 @@
         }
     %>
     <input type="submit" value="Conexion" class="btn btn-success" onclick = "alert('<%= res%>')"/>
-
+    
 </body>
 </html>
 
