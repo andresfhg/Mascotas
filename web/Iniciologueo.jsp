@@ -15,7 +15,6 @@
         <link rel="Shortcut Icon" type="image/x-icon" href="Imagenes/Disney_30.png">
         <script src="js/cargador.js"></script>
         <link href="css/cargador.css" rel="stylesheet" />
-       
         <%
             //capturamos los datos enviados desde el servlet
             String ema = (request.getAttribute("email")).toString();
