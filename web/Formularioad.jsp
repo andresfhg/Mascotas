@@ -26,7 +26,7 @@
                 <div class="navbar-collapse collapse" id="navbar-main">
                     <ul class="nav navbar-nav">
                         <li>
-                            <a href="Inicio.jsp">Inicio</a>
+                            <a href="Iniciologueo.jsp">Inicio</a>
                         </li>
                         
                         
