@@ -36,7 +36,10 @@
                         <li>
                             <a href="Formularioad.jsp">Formulario Adopcion</a>
                         </li>
-                        <li> <a style="left: 800px;"><%= m%></a></li>
+                        <li> <a style="left:735px;"><%= m%></a></li>
+                        <li>
+                        <a style="left:735px;" href="Inicio.jsp">Cerrar Sesión</a>
+                        </li>
 
                     </ul>
                 </div>
@@ -46,7 +49,7 @@
             <div class="jumbotron">
                 <h1>Bienvenido </h1>
                 <p>Esta página fue creada para saber más sobre las mascotas, podrán adoptar mascotas, donar beneficios para que estas masoctas se encuntren bien  y se podra interactuar con la persona que esta dando en adopcion la mascotas.</p>
-                  <a href="cerrar.jsp">Cerrar Secion!!</a>
+                  
             </div>
         </div>
     </body>
