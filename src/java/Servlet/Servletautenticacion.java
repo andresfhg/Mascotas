@@ -79,7 +79,7 @@ public class Servletautenticacion extends HttpServlet {
 
             conectadb sqlite = new conectadb();
             Connection cn = sqlite.Conectar();
-            String consulta = "Select * from Usuarios where email=? && contraseña=?";
+            String consulta = "Select * from usuarios where email=? && contraseña=?";
             ResultSet rs = null;
             PreparedStatement pst = null;
             pst = cn.prepareStatement(consulta);
