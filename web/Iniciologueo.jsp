@@ -48,7 +48,7 @@
         <div class="container-fluid">
             <div class="jumbotron">
                 <h1>Bienvenido </h1>
-                <p>Esta página fue creada para saber más sobre las mascotas, podrán adoptar mascotas, donar beneficios para que estas masoctas se encuntren bien  y se podra interactuar con la persona que esta dando en adopcion la mascotas.</p>
+                <p>Esta página fue creada para saber más sobre las mascotas, podrán adoptar mascotas, donar beneficios para que estas mascotas se encuntren bien  y se podra interactuar con la persona que esta dando en adopcion la mascotas.</p>
                   
             </div>
         </div>
