@@ -11,13 +11,14 @@ import Controller.conectadb;
 import java.sql.Connection;
 import java.sql.*;
 import javax.servlet.http.HttpSession;
+
 /**
  *
  * @author Santiago
  */
 @WebServlet(name = "Servletautenticacion", urlPatterns = {"/Servletautenticacion"})
 public class Servletautenticacion extends HttpServlet {
-     
+
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
      * methods.
@@ -35,7 +36,7 @@ public class Servletautenticacion extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet Servletautenticacion</title>");            
+            out.println("<title>Servlet Servletautenticacion</title>");
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>Servlet Servletautenticacion at " + request.getContextPath() + "</h1>");
@@ -86,20 +87,19 @@ public class Servletautenticacion extends HttpServlet {
             pst.setString(1, email);
             pst.setString(2, contraseña);
             rs = pst.executeQuery();
-            
-            String ema="";
+
+            String ema = "";
             while (rs.next()) {
 
                 buscar = true;
-                
-                ema= rs.getString("email");
+
+                ema = rs.getString("email");
             }
 
             if (buscar) {
                 HttpSession session = request.getSession(true);
-                session.setAttribute("email", email);  
-                
-                
+                session.setAttribute("email", email);
+
                 //Mandamos estos atributos a la página bienvenida.jsp
                 request.getRequestDispatcher("/Iniciologueo.jsp").forward(request, response);
             } else {

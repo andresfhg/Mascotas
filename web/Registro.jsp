@@ -28,7 +28,7 @@
                         <li>
                             <a href="Inicio.jsp">Inicio</a>
                         </li> 
-                        
+
                     </ul>
                 </div>
             </div>

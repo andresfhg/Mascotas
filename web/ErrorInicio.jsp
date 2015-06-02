@@ -28,17 +28,17 @@
                         <li>
                             <a href="Inicio.jsp">Inicio</a>
                         </li> 
-                       
+
                     </ul>
                 </div>
             </div>
         </nav>
         <div class="container-fluid">
-                <div class="jumbotron">
-                    <h1>Error</h1>
-                    <p>No se ha podido iniciar sesión por que el usuario no existe. Regrese a la pagina de <a href="Inicio.jsp">  Inicio</a>.</p>
-                </div>
+            <div class="jumbotron">
+                <h1>Error</h1>
+                <p>No se ha podido iniciar sesión por que el usuario no existe. Regrese a la pagina de <a href="Inicio.jsp">  Inicio</a>.</p>
             </div>
         </div>
-    </body>
+    </div>
+</body>
 </html>

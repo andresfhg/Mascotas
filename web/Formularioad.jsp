@@ -7,9 +7,9 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-    <% 
-     String m = (String) session.getAttribute("email");
-%>
+    <%
+        String m = (String) session.getAttribute("email");
+    %>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Formulario</title>
@@ -33,9 +33,9 @@
                         </li>
                         <li> <a style="left:735px;"><%= m%></a></li>
                         <li>
-                        <a style="left:735px;" href="Inicio.jsp">Cerrar Sesión</a>
+                            <a style="left:735px;" href="Inicio.jsp">Cerrar Sesión</a>
                         </li>
-                        
+
                     </ul>
                 </div>
             </div>
@@ -109,8 +109,8 @@
                                 </div>
                             </div>                      
                         </div>
-                        
-                        
+
+
                         <div class="col-xs-10">
 
                         </div>

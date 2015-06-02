@@ -8,7 +8,7 @@
 <%@page import="Controller.conectadb"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<% 
+<%
     session.invalidate();
 %>
 <html>
@@ -91,7 +91,7 @@
         }
     %>
     <input type="submit" value="Conexion" class="btn btn-success" onclick = "alert('<%= res%>')"/>
-    
+
 </body>
 </html>
 
