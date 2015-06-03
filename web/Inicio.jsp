@@ -48,14 +48,14 @@
                     <div class="form-group">
                         <label for="inputEmail" class="col-md-2 control-label">Email</label>
                         <div class="col-md-7">
-                            <input title="Ingrese correo" name="email" type="email" class="form-control" id="inputEmail" placeholder="Email" required/>
+                            <input name="email" type="email" class="form-control" id="inputEmail" placeholder="Email" title="Ingrese Email" required/>
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label for="inputPassword" class="col-md-2 control-label">Contraseña</label>
                         <div class="col-md-7">
-                            <input type="password" name="password" class="form-control" id="inputPassword" placeholder="Contraseña" required/>
+                            <input title="Ingrese Contraseña" type="password" name="password" class="form-control" id="inputPassword" placeholder="Contraseña" required/>
                         </div>
                     </div>
                     <div class="from-group">
