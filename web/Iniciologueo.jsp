@@ -13,7 +13,7 @@
         <title>Bienvenido</title>
         <link rel="stylesheet" href="css/bootstrap.css" type="text/css"/> 
         <link rel="stylesheet" href="newcss.css" type="text/css">   
-        <link rel="Shortcut Icon" type="image/x-icon" href="Imagenes/Disney_30.png">
+        <link rel="Shortcut Icon" type="image/x-icon" href="Imagenes/Icono.png">
         <script src="js/cargador.js"></script>
         <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>

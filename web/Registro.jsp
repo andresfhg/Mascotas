@@ -12,7 +12,7 @@
         <title>Registrate</title>
         <link rel="stylesheet" href="css/bootstrap.css" type="text/css"/> 
         <link rel="stylesheet" href="newcss.css" type="text/css">   
-        <link rel="Shortcut Icon" type="image/x-icon" href="Imagenes/Disney_30.png">
+        <link rel="Shortcut Icon" type="image/x-icon" href="Imagenes/Icono.png">
         <script src="js/cargador.js"></script>
         <link href="css/cargador.css" rel="stylesheet" />
     </head>
