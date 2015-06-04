@@ -92,9 +92,9 @@ public class Servletautenticacion extends HttpServlet {
             rs = st.executeQuery(consulta);
 
             while (rs.next()) {
-                email = rs.getString(1);
-                usuario = rs.getString(3);
-                rol = rs.getString(4);
+                email = rs.getString(2);
+                usuario = rs.getString(4);
+                rol = rs.getString(5);
                 buscar = true;
             }
 
