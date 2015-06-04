@@ -34,7 +34,7 @@
             </div>
         </nav>
         <div class="container">
-            <form class="form-horizontal">
+            <form class="form-horizontal" action="ServletRegistro" method="post">
                 <fieldset>
                     <legend>Registrarse</legend>
                     <div class="form-group">
