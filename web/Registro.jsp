@@ -55,12 +55,7 @@
                             <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña" minlength="8" required/>
                         </div>
                     </div>
-                    <div class="form-group">
-                        <label for="inputPassword" class="col-md-2 control-label">Confirmar Contraseña</label>
-                        <div class="col-md-5">
-                            <input type="password" class="form-control" id="inputPassword" placeholder="Confirmar Contraseña" minlength="8" required/>
-                        </div>
-                    </div>
+                    
                     <div class="form-group">
                         <div class="col-md-5 col-md-offset-2">
                             <input type="submit" value="Registrarse" class="btn btn-success" />
