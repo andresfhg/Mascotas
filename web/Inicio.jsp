@@ -70,6 +70,7 @@
                         </div>
                     </div>
 
+
                 </fieldset> 
             </form>
         </div>
@@ -90,8 +91,11 @@
             res = "Conexión Fallida :( ";
         }
     %>
-    <input type="submit" value="Conexion" class="btn btn-success" onclick = "alert('<%= res%>')"/>
-
+    <div class="container">
+        <div class="col-xs-8">
+            <input type="submit" value="Conexion" class="btn btn-success" onclick = "alert('<%= res%>')"/>
+        </div>
+    </div>
 </body>
 </html>
 

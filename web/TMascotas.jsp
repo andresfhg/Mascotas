@@ -38,10 +38,13 @@
                             <a href="Iniciologueo.jsp">Inicio</a>
                         </li> 
                         <li>
-                            <a style="left:885px;"><%= u%></a>
+                            <a href="Registrarmascota.jsp">Registrar Mascotas</a>
                         </li>
                         <li>
-                            <a style="left:900px;" href="Inicio.jsp">Cerrar Sesión</a>
+                            <a style="left:820px;"><%= u%></a>
+                        </li>
+                        <li>
+                            <a style="left:830px;" href="Inicio.jsp">Cerrar Sesión</a>
                         </li>
 
                     </ul>

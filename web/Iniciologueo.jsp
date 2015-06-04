@@ -48,6 +48,9 @@
                             <a href="TMascotas.jsp">Mascotas</a>
                         </li>
                         <li>
+                            <a href="Registrarmascota.jsp">Registrar Mascotas</a>
+                        </li>
+                        <li>
                             <a style="left:470px;"><%= u%></a>
                         </li>
                         <li>
