@@ -71,35 +71,6 @@ public class Servletautenticacion extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        /**
-         * PrintWriter out = response.getWriter(); try { boolean buscar = false;
-         *
-         * String email = request.getParameter("email"); String contraseña =
-         * request.getParameter("password");
-         *
-         * conectadb sqlite = new conectadb(); Connection cn =
-         * sqlite.Conectar(); String consulta = "Select * from usuarios where
-         * email=? && contraseña=?"; ResultSet rs = null; PreparedStatement pst
-         * = null; pst = cn.prepareStatement(consulta); pst.setString(1, email);
-         * pst.setString(2, contraseña); rs = pst.executeQuery();
-         *
-         * String ema = ""; String usuario = ""; while (rs.next()) {
-         *
-         * buscar = true;
-         *
-         * ema = rs.getString("email"); }
-         *
-         * if (buscar) { HttpSession session = request.getSession(true);
-         * session.setAttribute("email", email);
-         *
-         * //Mandamos estos atributos a la página bienvenida.jsp
-         * request.getRequestDispatcher("/Iniciologueo.jsp").forward(request,
-         * response); } else { //De lo contrario vamos a la página
-         * errorLogin.jsp
-         * request.getRequestDispatcher("/ErrorInicio.jsp").forward(request,
-         * response); } out.close(); } catch (SQLException ex) {
-         * out.println(ex.toString()); }*
-         */
 
         PrintWriter out = response.getWriter();
 
@@ -116,7 +87,7 @@ public class Servletautenticacion extends HttpServlet {
             Statement st = cn.createStatement();
             ResultSet rs;
 
-            String consulta = "Select * from usuarios where email='" + email + "' ;";
+            String consulta = "Select * from Usuarios where email='" + email + "' ;";
 
             rs = st.executeQuery(consulta);
 
