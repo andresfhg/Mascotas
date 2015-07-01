@@ -78,7 +78,7 @@ public class Servletautenticacion extends HttpServlet {
             boolean buscar = false;
 
             String email = request.getParameter("email");
-            String contraseña = request.getParameter("passworod");
+            String contraseña = request.getParameter("password");
             String usuario = "";
             String rol = "";
 
@@ -87,8 +87,8 @@ public class Servletautenticacion extends HttpServlet {
             Statement st = cn.createStatement();
             ResultSet rs;
 
-            String consulta = "Select * from Usuarios where email='" + email + "' ;";
-
+            String consulta = "Select * from Usuarios where email='" + email + "' and contraseña='" + contraseña + "' ;";
+            
             rs = st.executeQuery(consulta);
 
             while (rs.next()) {

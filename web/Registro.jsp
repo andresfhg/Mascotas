@@ -40,7 +40,7 @@
                     <div class="form-group">
                         <label for="inputUsuario" class="col-md-2 control-label">Usuario</label>
                         <div class="col-md-5">
-                            <input title="Se necesita un nombre" type="text" class="form-control" id="inputUsuario" placeholder="Usuario" minlength="10" required/>
+                            <input title="Se necesita un nombre" type="text" class="form-control" id="inputUsuario" placeholder="Usuario" minlength="10" required name="usuario"/>
                         </div>
                     </div>
                     <div class="form-group">
@@ -52,7 +52,7 @@
                     <div class="form-group">
                         <label for="inputPassword" class="col-md-2 control-label">Contraseña</label>
                         <div class="col-md-5">
-                            <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña" minlength="8" required/>
+                            <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña" minlength="8" name="passaword" required/>
                         </div>
                     </div>
                     
