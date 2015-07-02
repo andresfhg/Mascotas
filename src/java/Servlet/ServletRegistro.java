@@ -6,13 +6,19 @@
 
 package Servlet;
 
+import Controller.conectadb;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -73,7 +79,37 @@ public class ServletRegistro extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        processRequest(request, response);
+        PrintWriter out = response.getWriter();
+
+        try {
+         
+            String usu = request.getParameter("usuario");
+            String mail = request.getParameter("email");
+            String contraseña = request.getParameter("passaword");
+            String rol = "Usuario";
+
+            conectadb sqlite = new conectadb();
+            java.sql.Connection cn = sqlite.Conectar();
+            Statement st = cn.createStatement();
+            
+            String consulta = "insert into usuarios(email,contraseña,usuario,rol) values('"+ mail +"','"+ contraseña +"','"+ usu +"','"+ rol +"')";
+            
+            int t = st.executeUpdate(consulta);
+            st.close();
+            
+            if(t == 1){
+             
+                //Mandamos estos atributos a la página bienvenida.jsp
+                request.getRequestDispatcher("/Inicio.jsp").forward(request, response);
+                
+            }else{
+                JOptionPane.showMessageDialog(null, "no se apodido hacer el registro");
+            }
+            
+            out.close();
+        } catch (SQLException ex) {
+            out.println(ex.toString());
+        }
         
     }
 
