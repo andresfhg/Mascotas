@@ -51,43 +51,43 @@
             </div>
         </nav>
         <div class="container">
-            <form class="form-horizontal">
+            <form class="form-horizontal" action="ServletRegistroMascotas" method="post">
                 <fieldset>
                     <legend>Registrar Mascota</legend>
                     <div class="form-group">
                         <label for="inputNombre" class="col-md-2 control-label">Nombre</label>
                         <div class="col-md-5">
-                            <input title="Se necesita un nombre" type="text" class="form-control" id="inputNombre" placeholder="Nombre"  required/>
+                            <input title="Se necesita un nombre" type="text" class="form-control" id="inputNombre" placeholder="Nombre" name="nombre"  required/>
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="inputColor" class="col-md-2 control-label">Color</label>
                         <div class="col-md-5">
-                            <input type="text" class="form-control" id="inputColor" placeholder="Color" name="Color" required/>
+                            <input type="text" class="form-control" id="inputColor" placeholder="Color" name="color" required/>
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="inputEspecie" class="col-md-2 control-label">Especie</label>
                         <div class="col-md-5">
-                            <input type="text" class="form-control" id="inputEspecie" placeholder="Especie" required/>
+                            <input type="text" class="form-control" id="inputEspecie" placeholder="Especie" name="especie" required/>
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="inputraza" class="col-md-2 control-label">Raza</label>
                         <div class="col-md-5">
-                            <input type="text" class="form-control" id="inputRaza" placeholder="Raza" required/>
+                            <input type="text" class="form-control" id="inputRaza" placeholder="Raza" name="raza" required/>
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="inputEdad" class="col-md-2 control-label">Edad</label>
                         <div class="col-md-5">
-                            <input type="text" class="form-control" id="inputEdad" placeholder="Edad" required/>
+                            <input type="text" class="form-control" id="inputEdad" placeholder="Edad" name="edad" required/>
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="inputUsuario" class="col-md-2 control-label">Usuario</label>
+                        <label for="inputTamaño" class="col-md-2 control-label">Tamaño</label>
                         <div class="col-md-5">
-                            <input type="text" class="form-control" id="inputUsuario" placeholder="Usuario" required/>
+                            <input type="text" class="form-control" id="inputTamaño" placeholder="Tamaño" name="tamano" required/>
                         </div>
                     </div>
 
