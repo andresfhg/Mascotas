@@ -114,6 +114,7 @@
                     %>
                 </tbody>
             </table>
+            
 
         </div>
         <footer class="footer small">

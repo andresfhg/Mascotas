@@ -87,6 +87,7 @@
             <script type="text/javascript" src="engine1/script.js"></script>
         </div>
         <!-- CARRUSEL-->
+        <a class="btn btn-success" href="Donaciones.jsp" role="button">Donar</a>
         <footer class="footer small">
 
             <div class="col-xs-4">
