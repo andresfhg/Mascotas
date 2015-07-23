@@ -102,7 +102,7 @@ public class ServletRegistroMascotas extends HttpServlet {
             if(t == 1){
              
                 //Mandamos estos atributos a la página bienvenida.jsp
-                request.getRequestDispatcher("/Iniciologueo.jsp").forward(request, response);
+                request.getRequestDispatcher("/TMascotas.jsp").forward(request, response);
                 
             }else{
                 JOptionPane.showMessageDialog(null, "no se apodido hacer el registro");

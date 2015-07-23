@@ -96,6 +96,49 @@
             <input type="submit" value="Conexion" class="btn btn-success" onclick = "alert('<%= res%>')"/>
         </div>
     </div>
+    <footer class="footer small">
+
+            <div class="col-xs-4">
+                <strong>Información</strong></br>
+                <address>
+                    <br>
+                    En esta página podras</br>
+                    saber mas sobre mascotas, como</br>
+                    las que se encuentran perdidas, las que </br>
+                    estan en adopcion, las que necesitan donaciones para</br>
+                    poder sobrevivir. Tambien Podras registrar tu mascota para </br>
+                    que reciba una ayuda si la necesita, o simplemente para que otros </br>
+                    usuarios la vea.</br>
+                </address>
+            </div>
+
+            <div class="col-xs-4">
+                <address>
+                    <strong>Contacto</strong></br>
+                    <br>
+                    Itagüí - Antioquia</br>
+                    Itagüí - Antioquia - Colombia
+                </address>
+            </div>
+            <div class="col-xs-4">
+                <h6 class="redS">Redes Sociales</h6>
+                <ul class="list-unstyled-2" >
+                    <li><a href="http://www.facebook.com" ><img src="Imagenes/facebook-icon.png"</a></li>
+                    <li><a href="http://www.twitter.com"><img src="Imagenes/twitter-icon.png"</a></li>
+                </ul>
+                <br><br>
+                <ul class="list-unstyled-1">
+                    <li></li><br>
+                    <li></li><br>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="text-center">
+                <p>
+                    &copy elaborado por Andres Felipe, Medellin-Colombia. Derechos reservados.
+                </P>
+            </div>
+        </footer>
 </body>
 </html>
 

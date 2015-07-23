@@ -18,5 +18,35 @@ body {
     background-attachment:fixed;
     background-position:center;
 }
+/* footer */
 
+footer {
+  margin-top: 500px;
+  padding-top: 5px;
+  border-top: 2px inset #eaeaea;
+  color: #777;
+
+}
+
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
 
